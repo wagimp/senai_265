@@ -1,10 +1,9 @@
-sinal =in
+usuario = input("Login: ")
+senha = input("Senha: ")
 
-if sinal == "vermelho":
-    print("PARE!")
-elif sinal == "amarelo":
-    print("ATENÇÃO!")
-elif sinal == "verde":
-    print("Pode passar")
+if usuario == "Fudencio" and senha=="123":
+    print("Acesso liberado")
 else:
-    print("Que sinal é caboclo?")
+    print("Acesso negado")
+
+
